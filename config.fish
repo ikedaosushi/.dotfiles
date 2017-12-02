@@ -50,3 +50,7 @@ alias g='git'
 [ -f /Users/ikedayutaro/.nodebrew/node/v8.8.1/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.fish ]; and . /Users/ikedayutaro/.nodebrew/node/v8.8.1/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.fish
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/ikedayutaro/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/Users/ikedayutaro/google-cloud-sdk/path.fish.inc'; else; . '/Users/ikedayutaro/google-cloud-sdk/path.fish.inc'; end; end
+
+function dict
+  grep $argv[1] ~/.dict.txt -A 1 -wi --color
+end

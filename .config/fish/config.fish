@@ -33,12 +33,6 @@ eval (direnv hook fish)
 set -gx JAVA_HOME (/usr/libexec/java_home -v "1.8")
 set -gx PATH $JAVA_HOME/bin $PATH
 
-# Spotify-DL
-set -gx SPOTIPY_CLIENT_ID 'd13d0dbf47284a20997a216fcbc94e35'
-set -gx SPOTIPY_CLIENT_SECRET '402689fa1492413d8d88b581963eec9c'
-set -gx SPOTIPY_REDIRECT_URI 'http://localhost:3002'
-set -gx YOUTUBE_DEV_KEY 'AIzaSyAgh7KxcKittHQUKuV78iyjCBxWkwIKPzc'
-
 # GCP
 ## The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/yutaro_ikeda/.tmp/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/Users/yutaro_ikeda/.tmp/google-cloud-sdk/path.fish.inc'; else; . '/Users/yutaro_ikeda/.tmp/google-cloud-sdk/path.fish.inc'; end; end

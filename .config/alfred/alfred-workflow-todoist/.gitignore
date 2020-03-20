@@ -1,7 +1,0 @@
-.DS_Store
-todo.upgrade
-data
-cache
-debug
-*.sublime-*
-node_modules

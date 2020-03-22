@@ -15,7 +15,7 @@ set -x LANG ja_JP.UTF-8
 # pyenv 
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/shims $PATH
-pyenv init - | source
+status --is-interactive; and source (pyenv init -|psub)
 
 # nodebrew
 set -x NODEBREW_ROOT $HOME/.nodebrew
@@ -25,6 +25,9 @@ set -x PATH $NODEBREW_ROOT/current/bin $PATH
 set -x GOROOT /usr/local/opt/go/libexec
 set -x GOPATH $HOME/.golang
 set -x PATH $GOROOT/bin $GOPATH/bin $PATH
+
+# Direnv
+eval (direnv hook fish)
 
 # alias
 alias rm='rm -i'

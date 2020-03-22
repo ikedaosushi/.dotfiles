@@ -49,6 +49,7 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew install ghq
 brew install tig
+brew install direnv
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg

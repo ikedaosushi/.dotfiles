@@ -50,6 +50,7 @@ $(brew --prefix)/opt/fzf/install
 brew install ghq
 brew install tig
 brew install direnv
+brew install the_silver_searcher
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg

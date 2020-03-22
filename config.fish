@@ -1,13 +1,13 @@
-# pyenv 
+# Pyenv 
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/shims $PATH
 status --is-interactive; and source (pyenv init -|psub)
 
-# nodebrew
+# Nodebrew
 set -x NODEBREW_ROOT $HOME/.nodebrew
 set -x PATH $NODEBREW_ROOT/current/bin $PATH
 
-# golang
+# Golang
 set -x GOROOT /usr/local/opt/go/libexec
 set -x GOPATH $HOME/.golang
 set -x PATH $GOROOT/bin $GOPATH/bin $PATH
@@ -15,7 +15,7 @@ set -x PATH $GOROOT/bin $GOPATH/bin $PATH
 # Direnv
 eval (direnv hook fish)
 
-# alias
+# Alias
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'

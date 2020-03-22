@@ -1,0 +1,1 @@
+/Users/yutaro/.dotfiles/config.fish

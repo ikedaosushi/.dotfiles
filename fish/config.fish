@@ -1,3 +1,6 @@
+# Lang
+set -x LC_ALL en_US.UTF-8
+
 # Pyenv 
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/shims $PATH
@@ -11,6 +14,9 @@ set -x PATH $NODEBREW_ROOT/current/bin $PATH
 set -x GOROOT /usr/local/opt/go/libexec
 set -x GOPATH $HOME/.golang
 set -x PATH $GOROOT/bin $GOPATH/bin $PATH
+
+# Java
+set -x JAVA_HOME (/usr/libexec/java_home)
 
 # Direnv
 eval (direnv hook fish)
@@ -28,3 +34,4 @@ if not functions -q fisher
     curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
     fish -c fisher
 end
+

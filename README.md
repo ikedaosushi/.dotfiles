@@ -2,7 +2,7 @@
 
 dotfiles that setup develop environment.
 
-# Usage 
+## Usage 
 
 ```
 $ git clone git@github.com:ikedaosushi/.dotfiles.git ~/.dotfiles

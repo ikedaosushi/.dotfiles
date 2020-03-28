@@ -51,6 +51,11 @@ brew install ghq
 brew install tig
 brew install direnv
 brew install the_silver_searcher
+brew install jq
+brew install jid
+
+# GCP SDK
+curl https://sdk.cloud.google.com | bash
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg

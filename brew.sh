@@ -76,6 +76,9 @@ brew install pyenv
 brew install nodebrew
 brew install golang
 
+# Install image libraly
+brew install zlib
+
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
 brew install bfg

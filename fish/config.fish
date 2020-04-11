@@ -1,3 +1,6 @@
+# /usr/local
+set -x PATH $PATH /usr/local/bin
+
 # Lang
 set -x LC_ALL en_US.UTF-8
 
@@ -35,3 +38,6 @@ if not functions -q fisher
     fish -c fisher
 end
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/yutaro/google-cloud-sdk/path.fish.inc' ]; . '/Users/yutaro/google-cloud-sdk/path.fish.inc'; end

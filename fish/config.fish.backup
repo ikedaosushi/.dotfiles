@@ -1,6 +1,3 @@
-# /usr/local
-set -x PATH $PATH /usr/local/bin
-
 # Lang
 set -x LC_ALL en_US.UTF-8
 
@@ -8,9 +5,6 @@ set -x LC_ALL en_US.UTF-8
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/shims $PATH
 status --is-interactive; and source (pyenv init -|psub)
-
-# Conda
-set -x PATH $HOME/opt/anaconda3/bin/ $HOME
 
 # Nodebrew
 set -x NODEBREW_ROOT $HOME/.nodebrew
@@ -41,6 +35,3 @@ if not functions -q fisher
     fish -c fisher
 end
 
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/yutaro/google-cloud-sdk/path.fish.inc' ]; . '/Users/yutaro/google-cloud-sdk/path.fish.inc'; end

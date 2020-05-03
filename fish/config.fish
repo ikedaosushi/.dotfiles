@@ -10,7 +10,7 @@ set -x PATH $PYENV_ROOT/shims $PATH
 status --is-interactive; and source (pyenv init -|psub)
 
 # Conda
-set -x PATH $HOME/opt/anaconda3/bin/ $HOME
+set -x PATH $HOME/opt/anaconda3/bin/ $PATH
 
 # Nodebrew
 set -x NODEBREW_ROOT $HOME/.nodebrew

@@ -8,6 +8,7 @@ set -x LC_ALL en_US.UTF-8
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/shims $PATH
 status --is-interactive; and source (pyenv init -|psub)
+set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # Conda
 set -x PATH $HOME/opt/anaconda3/bin/ $PATH

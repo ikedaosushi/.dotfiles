@@ -51,7 +51,7 @@ configparser==3.5.3
 contextlib2==0.6.0.post1
 cookiecutter==1.6.0
 croniter==0.3.30
-cryptography==2.8
+cryptography==3.2
 cssselect==1.1.0
 cycler==0.10.0
 cymem==2.0.2

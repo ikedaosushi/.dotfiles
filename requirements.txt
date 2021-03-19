@@ -78,7 +78,7 @@ django-import-export==2.0.1
 django-nocaptcha-recaptcha==0.0.20
 django-storages==1.9.1
 django-widget-tweaks==1.4.3
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 docker==4.1.0
 docker-compose==1.24.1
 docker-pycreds==0.4.0

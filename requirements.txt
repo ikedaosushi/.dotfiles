@@ -165,7 +165,7 @@ japanize-matplotlib==1.0.5
 jdcal==1.4.1
 jedi==0.15.1
 jellyfish==0.7.2
-Jinja2==2.10.1
+Jinja2==2.11.3
 jinja2-time==0.2.0
 jmespath==0.9.4
 joblib==0.14.0

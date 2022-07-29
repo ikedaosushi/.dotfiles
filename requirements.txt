@@ -201,7 +201,7 @@ maxminddb==1.4.1
 mccabe==0.6.1
 mecab-python3==0.996.2
 MiniMock==1.2.8
-mistune==0.8.4
+mistune==2.0.3
 mlflow==1.5.0
 more-itertools==7.2.0
 msgpack==0.6.2
